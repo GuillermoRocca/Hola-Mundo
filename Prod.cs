@@ -14,8 +14,8 @@ public class Producto {
     }
     
     public override string ToString() {
-        return  
-        $"Nombre {this.Nombre}\nPrecio {this.Precio}";       
+        string combinedString = string.Join( "\n", this.Lista );
+        return  $"Nombre {this.Nombre}\nPrecio {this.Precio}, \nReviews del Producto: \n{combinedString} ";       
 }
 }
 }

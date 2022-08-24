@@ -9,7 +9,7 @@ public class Review {
         this.Comentario= comentario;
     }
     public override string ToString() {
-        return $"Reviews del producto:\nComentario:{this.Comentario}\nCalificacion:{this.Calificacion}";
+        return $"\nComentario:{this.Comentario}\nCalificacion:{this.Calificacion}";
     }
     }
     }
